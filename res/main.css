@@ -1,0 +1,86 @@
+.navbar
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav_divider
+{
+    background: black;
+}
+
+.logo
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+body
+{
+
+}
+
+header
+{
+    
+}
+
+header::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+footer
+{
+    width: 60%;
+}
+
+nav
+{
+    float: left;
+}
+
+nav ul
+{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li
+{
+    padding-top: 8%;
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+}
+
+nav a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+nav a:hover
+{
+    color: black;
+}
+
+p
+{
+    width: 60%;
+    margin: auto;
+}
+
+*
+{
+    font-family: 'Open Sans';
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
