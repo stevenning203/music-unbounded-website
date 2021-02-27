@@ -15,6 +15,7 @@
 
 #about_blurb_title
 {
+    font-weight: bolder;
     padding-top: 4em;
     font-size: 1.5em;
     margin-left: 10%;
@@ -36,13 +37,13 @@
 
 #help_blurb
 {
-    width: 80%;
+    width: 40%;
     margin-left: 10%;
-    margin-top: 5em;
 }
 
 #mission_blurb_title
 {
+    font-weight: bolder;
     float: right;
     padding-top: 8em;
     font-size: 1.5em;
@@ -79,6 +80,7 @@
 
 #secondary_title
 {
+    font-weight: bolder;
     text-align: center;
     padding-top: 5em;
     padding-bottom: 1em;
@@ -94,6 +96,14 @@
 {
     width: 45%;
     float: left;
+}
+
+#lessons_blurb_title
+{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-bottom: 1em;
 }
 
 #main_page_mission
@@ -153,15 +163,15 @@
     display: block;
     background: palevioletred;
     padding: 0.5em;
-    width: 3.25em;
-    font-size: 0.5em;
+    width: 6.5em;
+    font-size: 0.3em;
     color: white;
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+    transition: 0.5s;
 }
 
 .primary_button:hover
 {
-    transform: scale(1.15);
+    background: #F890B3;
 }
 
 .primary_button span
@@ -284,4 +294,5 @@ p
     padding: 0;
     margin: 0;
     font-size: 18px;
+    color: black;
 }
