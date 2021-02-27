@@ -1,0 +1,58 @@
+#cello_blurb
+{
+    margin-top: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#main_page_mission
+{
+    margin-top: 2em;
+    margin-left: 10%;
+    font-size: 4em;
+    margin-bottom: 1.5em;
+}
+
+#main_page_mission span
+{
+    font-size: 0.5em;
+}
+
+#trio_image
+{
+    width: 100%;
+}
+
+.background_image
+{
+    float: right;
+    width: 43%;
+}
+
+.cello_image
+{
+    float: left;
+    height: 25em;
+}
+
+.primary_button
+{
+    margin-top: 1em;
+    display: block;
+    background: palevioletred;
+    padding: 0.5em;
+    width: 6.5em;
+    font-size: 0.3em;
+    color: white;
+    transition: 0.5s;
+}
+
+.primary_button:hover
+{
+    background: #F890B3;
+}
+
+.primary_button span
+{
+    font-weight: bold;
+}
