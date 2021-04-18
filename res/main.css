@@ -1,0 +1,110 @@
+@media (max-width: 1280px)
+{
+    img#vanish
+    {
+        display: none;
+    }
+}
+
+#contact_blurb
+{
+    padding-top: 4em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#donate_blurb
+{
+    padding-top: 4em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#help_blurb
+{
+    width: 40%;
+    margin-left: 10%;
+}
+
+#footer
+{
+    background-color: #D2D2D2;
+    width: 100%;
+}
+
+#secondary_title
+{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+#lessons_blurb_title
+{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-bottom: 1em;
+}
+
+#wrapper
+{
+    min-width: 1280px;
+    max-width: 1920px;
+}
+
+.logo
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    float: left;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
+.logo:hover
+{
+    transform: scale(1.15);
+}
+
+.title
+{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+header::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+html
+{
+    background-color: #F2F2F2;
+}
+
+footer
+{
+    display: none;
+    position: fixed;
+    width: 60%;
+}
+
+*
+{
+    font-family: 'Open Sans';
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}

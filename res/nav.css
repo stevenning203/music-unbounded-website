@@ -1,0 +1,56 @@
+#main_navbar li
+{
+    float: left;
+    margin-top: 1.5em;
+    margin-left: 50px;
+    position: relative;
+    transition: 0.5s;
+}
+
+#right_navbar
+{
+    float: right;
+    margin-top: 1.5em;
+    transition: 0.5s;
+}
+
+#right_navbar ul li
+{
+    transition: 0.5s;
+}
+
+.navbar
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.nav_divider
+{
+    background: black;
+}
+
+nav a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(133, 133, 133);
+    transition: 0.3s;
+}
+
+nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li:hover
+{
+    transform: scale(1.1);
+}
+
+nav a:hover
+{
+    color: black;
+}
