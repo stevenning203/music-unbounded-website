@@ -23,6 +23,27 @@
     width: 100%;
 }
 
+#instrument_catalog_wrapper
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10em;
+}
+
+#instrument_catalog li
+{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    background-color: palevioletred;
+    margin-bottom: 1em;
+}
+
+label
+{
+    color: white;
+}
+
 .background_image
 {
     float: right;
