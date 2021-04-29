@@ -4,9 +4,23 @@
     width: 40%;
 }
 
+#help_blurb
+{
+    width: 40%;
+    margin-left: 10%;
+}
+
 #register_lesson_blurb
 {
     margin-bottom: 16em;
+}
+
+#lessons_blurb_title
+{
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-left: 10%;
+    margin-bottom: 1em;
 }
 
 #registration_form

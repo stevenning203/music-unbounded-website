@@ -1,58 +1,19 @@
-@media (max-width: 1280px)
+#footer_unordered_list
 {
-    img#vanish
-    {
-        display: none;
-    }
+    float: right;
+    list-style: none;
+    margin-right: 20%;
 }
 
-#contact_blurb
+#footer_unordered_list li
 {
-    padding-top: 4em;
-    font-size: 1.5em;
-    text-align: center;
+    display: inline-block;
+    padding-left: 2em;
 }
 
-#donate_blurb
+#footer_unordered_list li a
 {
-    padding-top: 4em;
-    font-size: 1.5em;
-    text-align: center;
-}
-
-#help_blurb
-{
-    width: 40%;
-    margin-left: 10%;
-}
-
-#footer
-{
-    background-color: #D2D2D2;
-    width: 100%;
-}
-
-#secondary_title
-{
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 5em;
-    padding-bottom: 1em;
-    font-size: 2em;
-}
-
-#lessons_blurb_title
-{
-    font-weight: bolder;
-    font-size: 1.5em;
-    margin-left: 10%;
-    margin-bottom: 1em;
-}
-
-#wrapper
-{
-    min-width: 1280px;
-    max-width: 1920px;
+    color: white;
 }
 
 .logo
@@ -66,6 +27,29 @@
 .logo:hover
 {
     transform: scale(1.15);
+}
+
+#footer
+{
+    background-color: skyblue;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+#secondary_title
+{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+#wrapper
+{
+    min-width: 1280px;
+    max-width: 1920px;
 }
 
 .title
@@ -91,13 +75,6 @@ header::after
 html
 {
     background-color: #F2F2F2;
-}
-
-footer
-{
-    display: none;
-    position: fixed;
-    width: 60%;
 }
 
 *

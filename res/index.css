@@ -23,6 +23,14 @@
     width: 100%;
 }
 
+@media (max-width: 1280px)
+{
+    img#vanish
+    {
+        display: none;
+    }
+}
+
 #instrument_catalog_wrapper
 {
     width: 80%;
@@ -35,7 +43,7 @@
     width: 33%;
     display: inline-block;
     text-align: center;
-    background-color: palevioletred;
+    background-color: skyblue;
     margin-bottom: 1em;
 }
 
@@ -60,7 +68,7 @@ label
 {
     margin-top: 1em;
     display: block;
-    background: palevioletred;
+    background: skyblue;
     padding: 0.5em;
     width: 6.5em;
     font-size: 0.3em;
@@ -70,7 +78,7 @@ label
 
 .primary_button:hover
 {
-    background: #F890B3;
+    background: lightblue;
 }
 
 .primary_button span
