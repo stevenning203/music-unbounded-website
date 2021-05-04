@@ -10,18 +10,72 @@
     margin-bottom: 5rem;
 }
 
-.team_member
+.team_member_cello
 {
     height: 41rem;
     overflow: hidden;
     position: relative;
     width: 25%;
-    background-color: white;
+    background-color: orange;
     display: inline-block;
     text-align: center;
 }
 
-.team_member img
+.team_member_piano
+{
+	height: 41rem;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    background-color: skyblue;
+    display: inline-block;
+    text-align: center;
+}
+
+.team_member_violin
+{
+	height: 41rem;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+}
+
+.team_member_trombone
+{
+	height: 41rem;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    background-color: pink;
+    display: inline-block;
+    text-align: center;
+}
+
+.team_member_violin img
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.team_member_cello img
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.team_member_piano img
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+
+.team_member_trombone img
 {
     margin-top: 2rem;
     margin-bottom: 2rem;
