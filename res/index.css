@@ -43,8 +43,8 @@
     width: 33%;
     display: inline-block;
     text-align: center;
-    background-color: skyblue;
-    margin-bottom: 1em;
+    background-color: black;
+	margin-bottom: 0.25rem;
 }
 
 label
