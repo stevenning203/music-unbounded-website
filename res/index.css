@@ -45,6 +45,12 @@
     text-align: center;
     background-color: black;
 	margin-bottom: 0.25rem;
+	padding-bottom: 0.5rem;
+}
+
+#instrument_catalog li img
+{
+    padding-bottom: 0.5rem;
 }
 
 label
