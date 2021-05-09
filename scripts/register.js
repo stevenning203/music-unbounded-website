@@ -24,7 +24,7 @@ function Register(body, date)
         From: "noreplymusicunbounded@gmail.com",
         Subject: "Automatic Registration On: " + date,
         Body: body,
-    }).then(Redirect());
+    }).then(message => Redirect());
 }
 
 function SendEmail()
