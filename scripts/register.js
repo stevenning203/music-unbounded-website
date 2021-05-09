@@ -20,6 +20,7 @@ async function Register(body, date)
         Subject: "Automatic Registration On: " + date,
         Body: body,
     }).then(message => alert("Registration succesfully sent. Please wait for a response from our team in your email! Thanks for registering!"));
+	window.location.href = "https://musicunbounded.org/thank-you";
     let result = await Promise.resolve("true");
 }
 
@@ -29,6 +30,7 @@ function SendEmail()
     parent_name = document.getElementById('registration_parent_name_field').value;
     student_name = document.getElementById('registration_student_name_field').value;
     email = document.getElementById('registration_email_field').value;
+	number = document.getElementById('registration_phone_number_field').value;
     platform = document.getElementById('registration_platform_field').value;
     instrument = document.getElementById("registration_form_insturment_drop_down").value;
     where = document.getElementById("registration_form_where_drop_down").value;
@@ -42,6 +44,23 @@ function SendEmail()
     var body = "Guardian Name: " + parent_name + '<br><br>';
     body += "Student Name: " + student_name + '<br><br>';
     body += "Email: " + email + '<br><br>';
+	if (number == '')
+	{
+		body += "Phone number was not provided.<br><br>";
+	}
+	else
+	{
+		body += "Phone Number: " + number + '<br><br>';
+	}
+	if (document.getElementById("registration_phone_preferred_checkbox").checked == true)
+	{
+		body += "Registeree would prefer to be contacted by phone.";
+	}
+	else
+	{
+		body += "Registeree would prefer to be contacted by email.";
+	}
+	body += '<br><br>';
     body += "Platform: " + platform + '<br><br>';
     body += "Instrument: " + instrument + '<br><br>';
     body += "Found out about us from: " + where + '<br><br>';
@@ -61,4 +80,5 @@ function SendEmail()
     document.getElementById("registration_form_insturment_drop_down").value = '';
     document.getElementById("registration_form_where_drop_down").value = '';
     document.getElementById('registration_lesson_times_field').value = '';
+	document.getElementById('registration_phone_number_field').value = '';
 }
