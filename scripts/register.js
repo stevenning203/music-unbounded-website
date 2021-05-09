@@ -13,6 +13,7 @@ function HideLoading()
 function Redirect()
 {
 	window.location.href = "https://musicunbounded.org/thank-you";
+	HideLoading();
 }
 
 function Register(body, date)
@@ -75,7 +76,6 @@ function SendEmail()
     var month = String(today.getMonth()).padStart(2, '0');
     var date = month + '/' + day + '/' + today.getFullYear();
     Register(body, date);
-    HideLoading();
     document.getElementById('registration_parent_name_field').value = '';
     document.getElementById('registration_student_name_field').value = '';
     document.getElementById('registration_email_field').value = '';

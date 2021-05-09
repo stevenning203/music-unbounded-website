@@ -9,6 +9,7 @@
 
 #right_navbar
 {
+	display: none;
     float: right;
     margin-top: 1.5em;
     transition: 0.5s;
