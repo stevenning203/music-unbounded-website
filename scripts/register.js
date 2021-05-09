@@ -10,7 +10,12 @@ function HideLoading()
     text.style.display = "none";
 }
 
-async function Register(body, date)
+function Redirect()
+{
+	window.location.href = "https://musicunbounded.org/thank-you";
+}
+
+function Register(body, date)
 {
     Email.send(
     {
@@ -19,9 +24,7 @@ async function Register(body, date)
         From: "noreplymusicunbounded@gmail.com",
         Subject: "Automatic Registration On: " + date,
         Body: body,
-    }).then(message => alert("Registration succesfully sent. Please wait for a response from our team in your email! Thanks for registering!"));
-	window.location.href = "https://musicunbounded.org/thank-you";
-    let result = await Promise.resolve("true");
+    }).then(Redirect());
 }
 
 function SendEmail()
