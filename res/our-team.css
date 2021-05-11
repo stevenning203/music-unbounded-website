@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+#hide
+{
+	display: none;
+}
+
 #team_catalog_wrapper
 {
     margin-left: 20%;
