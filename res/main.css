@@ -1,3 +1,11 @@
+@media (max-width: 1280px)
+{
+    img#vanish
+    {
+        display: none;
+    }
+}
+
 #footer_unordered_list
 {
     float: right;

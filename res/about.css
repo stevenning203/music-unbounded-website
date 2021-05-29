@@ -1,49 +1,59 @@
-#about_blurb
-{
-    width: 40%;
-    margin-left: 10%;
-    padding-bottom: 11.6em;
-}
-
 #about_blurb_title
 {
-    font-weight: bolder;
-    padding-top: 7%;
-    font-size: 1.5em;
-    margin-left: 10%;
+   font-size: 1.5rem;
 }
 
 #mission_blurb_title
 {
-    font-weight: bolder;
-    float: right;
-    padding-top: 13%;
-    font-size: 1.5em;
-    margin-right: 10%;
-    width: 40%;
-    padding-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+#about_paragraph_wrapper
+{
+	margin-top: 3%;
+	margin-left: 10%;
+	display: inline-block;
+	width: 40%;
+}
+
+#mission_paragraph_wrapper
+{
+	margin-top: 7%;
+	width: 40%;
+	float: right;
+	margin-right: 10%;
+}
+
+#foundation_wrapper
+{
+	overflow: hidden;
+	margin-bottom: 3rem;
+}
+
+#mission_wrapper
+{
+	overflow: hidden;
+}
+
+#about_blurb
+{
+	display: inline-block;
 }
 
 #mission_blurb
 {
-    float: right;
+	display: inline-block;
+	float: right;
+}
+
+.orchestra_image
+{
     width: 40%;
-    margin-right: 10%;
+	float: right;
 }
 
-#orchestra_image
+.teaching_image
 {
-    float: right;
-    width: 45%;
-}
-
-#spacer
-{
-    padding-top: 31.75%;
-}
-
-#teaching_image
-{
-    width: 45%;
-    float: left;
+    width: 40%;
+	float: left;
 }
