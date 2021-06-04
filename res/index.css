@@ -5,6 +5,15 @@
     margin-bottom: 1em;
 }
 
+#secondary_title
+{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
 #main_page_mission
 {
     margin-top: 2em;

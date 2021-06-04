@@ -46,19 +46,9 @@
     padding-bottom: 2em;
 }
 
-#secondary_title
-{
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 5em;
-    padding-bottom: 1em;
-    font-size: 2em;
-}
-
 #wrapper
 {
     min-width: 1280px;
-    max-width: 1920px;
 }
 
 .title

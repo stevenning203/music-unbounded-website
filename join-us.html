@@ -4,15 +4,13 @@
             <title>Music Unbounded</title>
             <link rel = "stylesheet" href = "res/main.css">
             <link rel = "stylesheet" href = "res/nav.css">
-            <link rel = "stylesheet" href = "res/register.css">
+            <link rel = "stylesheet" href = "res/join-us.css">
             <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel = "stylesheet">
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
             <link rel="manifest" href="/site.webmanifest">
             <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-            <script src = "https://smtpjs.com/v3/smtp.js"></script>
-            <script src = "scripts/register.js"></script>
             <meta name="msapplication-TileColor" content="#da532c">
             <meta name="theme-color" content="#ffffff">
         </head>
@@ -32,6 +30,9 @@
                                 <li>
                                     <a href = "our-team">Our Team</a>
                                 </li>
+								<li>
+									<a href = "join-us">Become A Teacher</a>
+								</li>
                             </ul>
                         </nav>
                         <nav id = "right_navbar">
@@ -44,45 +45,52 @@
                     </div>
                 </header>
                 <hr>
-                <div class = "title">Registration</div>
-                <div id = "register_lesson_blurb">
-                <img id = "music_sheet_image" src = "assets/sheet_music.jpg">
-                <div id = "lessons_blurb_title">Lessons</div>
-                <div id = "help_blurb">
-                    We offer one-on-one introductory private musical instrument lessons for free over
-                    Google Meet and Zoom. We will also accomodate other platforms as per request.
-                    <br><br>
-                    To register, fill out the form below. If you have any questions, please don't hesitate
-					to email us at info@musicunbounded.org and we will get back to you as soon as we can.
-                </div>
-                <br>
-            </div>
-            <div class = "title">Register</div>
-            <div id = "registration_form">
+                <div class = "title">Join Our Team as a Volunteer</div>
+				<div class = "subtitle">Why Join Us?</div>
+				<div id = "team_blurb">
+					blah blah this organizaiton is so good.
+				</div>
+				<div class = "subtitle">What Responsibilities Will I Have?</div>
+				<div id = "team_blurb">
+					As a teacher, you will need to be responsible and be able to teach.
+					You are proficient in the instrument that you want to teach and are
+					passionate about music. We will expect you to show up to teach the students
+					that you are responsible for.<br><br>In addition to filling out the application form,
+					you may be required to attend a short interview that includes a music
+					skill test. If you'd like to join our team, please fill out the application below.
+				</div>
+				<div class = "title">Apply</div>
+				<div id = "application_form">
                 <form>
                     <br>
-                    Full name of Parent/Guardian*
-                    <br>
-                    <input class = "wide_input_field" id = "registration_parent_name_field" required>
-                    <br>
-                    <br>
-                    Full name of Student*
+                    Full name*
                     <br>
                     <input class = "wide_input_field" id = "registration_student_name_field" required>
                     <br><br>
+					Age*
+					<br>
+					<select class = "short_input_field" id = "application_teacher_age_field" required>
+						<option hidden disable selected value>0</option>
+                        <option value = "12">12</option>
+						<option value = "13">13</option>
+						<option value = "14">14</option>
+						<option value = "15">15</option>
+						<option value = "16">16</option>
+						<option value = "17">17</option>
+						<option value = "18">18</option>
+						<option value = "19">19</option>
+						<option value = "20">20</option>
+						<option value = "21">21</option>
+						<option value = "22">22</option>
+						<option value = "23">23</option>
+						<option value = "24">24</option>
+						<option value = "25">25</option>
+					</select>
+					<br><br>
                     Email*
                     <input class = "wide_input_field" id = "registration_email_field" required>
                     <br><br>
-					Phone Number (Optional) (xxx-xxx-xxxx)
-					<input class = "wide_input_field" id = "registration_phone_number_field">
-					<br><br>
-					<input id = "registration_phone_preferred_checkbox" type = checkbox>
-					I would prefer to be contacted by phone number (if left unchecked, response will be through email)
-					<br><br>
-                    Preferred Lesson Platform (Discord, Google Meet, Zoom, or Other)*
-                    <input class = "wide_input_field" id = "registration_platform_field" required>
-                    <br><br>
-                    Preferred Instrument*
+                    I would like to teach...*
                     <select id = "registration_form_insturment_drop_down" required>
                         <option hidden disable selected value>Select an option</option>
                         <option value = "viola">Viola</option>
@@ -104,24 +112,24 @@
                         <option value = "other">Other</option>
                     </select>
                     <br><br>
-                    Please state preferred lesson times including day(s) of the week and
-                    possible times (Max 1000 characters)*
+                    Why would you like to join our team?* (Max 1000 characters)
                     <textarea maxlength = "1000" id = "registration_lesson_times_field" class = "large_input_field" required></textarea>
                     <br><br>
-                    <input type = "button" id = "registration_form_submit" value = "Register" onclick = "SendEmail()"></input>
+                    <input type = "button" id = "registration_form_submit" value = "Submit" onclick = "SendEmail()"></input>
                     <span id = "registration_loading_text">PLEASE WAIT.....</span>
                 </form>
             </div>
-            <footer id = "footer">
-                    <ul id = "footer_unordered_list">
-                        <li>
-                            <a href = "https://www.instagram.com/music.unbounded/" target = "_blank">INSTAGRAM</a>
-                        </li>
-                        <li>
-                            <a href = "https://www.kijiji.ca/v-music-lessons/edmonton/free-music-lessons/1554092748" target = "_blank">KIJIJI</a>
-                        </li>
-                    </ul>
-            </footer>
-            </body>
-        </html>
-    </div>
+                <footer id = "footer">
+                        <ul id = "footer_unordered_list">
+                            <li>
+                                <a href = "https://www.instagram.com/music.unbounded/" target = "_blank">INSTAGRAM</a>
+                            </li>
+                            <li>
+                                <a href = "https://www.kijiji.ca/v-music-lessons/edmonton/free-music-lessons/1554092748" target = "_blank">KIJIJI</a>
+                            </li>
+                        </ul>
+                </footer>
+            </div>
+        </body>
+    </html>
+</div>
