@@ -1,3 +1,8 @@
+function RedirectToTeam()
+{
+	window.location.href = "https://musicunbounded.org/join-us";
+}
+
 function ShowLoading()
 {
     var text = document.getElementById("registration_loading_text");

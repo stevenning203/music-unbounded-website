@@ -1,3 +1,13 @@
+#alternative_registration_button
+{
+	background-color: #E0E0E0;
+	width: 50%;
+	border: none;
+	padding: 10px;
+	margin: auto;
+	margin-left: 25%;
+}
+
 #music_sheet_image
 {
     float: right;

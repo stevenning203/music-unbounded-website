@@ -19,14 +19,14 @@
     padding: 10px;
 }
 
-#registration_form_insturment_drop_down
+#application_form_insturment_drop_down
 {
     width: 100%;
     padding: 10px 14px;
     background-color: #E0E0E0;
 }
 
-#registration_form_where_drop_down
+#application_form_where_drop_down
 {
     width: 100%;
     padding: 10px 14px;
@@ -50,7 +50,7 @@
 
 .short_input_field
 {
-	width: 7.5%;
+	width: 100%
 	border-radius: 0px;
 	border: none;
 	padding: 10px 14px;
