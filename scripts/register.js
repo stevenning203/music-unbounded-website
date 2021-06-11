@@ -41,7 +41,7 @@ function Register(body, date, receiver, piano)
 	response += "This is an automated email which is not monitored. Do not reply to this email. If you have any questions or concerns, please email us at info@musicunbounded.org";
 	if (piano == true)
 	{
-		response += " Unfortunately, we have a high volume of piano students which means that you may not be able to be assigned a teacher at all. If you would like to register for another instrument, please register through the form on the website again.";
+		response += " Because you registered as a piano student, we must inform you that we have a high volume of piano students which means that you may not be able to be assigned a teacher at all. If you would like to register for another instrument, please register through the form on the website again.";
 	}
 	Email.send(
 	{
