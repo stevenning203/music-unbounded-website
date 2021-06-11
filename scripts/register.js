@@ -21,7 +21,12 @@ function Redirect()
 	HideLoading();
 }
 
-function Register(body, date)
+function Void()
+{
+	
+}
+
+function Register(body, date, receiver, piano)
 {
     Email.send(
     {
@@ -30,7 +35,22 @@ function Register(body, date)
         From: "noreplymusicunbounded@gmail.com",
         Subject: "Automatic Registration On: " + date,
         Body: body,
-    }).then(message => Redirect());
+    }).then(message => Void());
+	var response = "Thank you so much for registering with us! We will be in touch within two weeks!";
+	response += "<br><br>";
+	response += "This is an automated email which is not monitored. Do not reply to this email. If you have any questions or concerns, please email us at info@musicunbounded.org";
+	if (piano == true)
+	{
+		response += " Unfortunately, we have a high volume of piano students which means that you may not be able to be assigned a teacher at all. If you would like to register for another instrument, please register through the form on the website again.";
+	}
+	Email.send(
+	{
+		SecureToken: "37a95e7b-7fdd-4c23-8164-65168edc77f4",
+        To: receiver,
+        From: "noreplymusicunbounded@gmail.com",
+        Subject: "Thank you for registering with us! On: " + date,
+        Body: response,
+	}).then(message => Redirect());
 }
 
 function SendEmail()
@@ -80,7 +100,12 @@ function SendEmail()
     var day = String(today.getDate()).padStart(2, '0');
     var month = String(today.getMonth() + 1).padStart(2, '0');
     var date = month + '/' + day + '/' + today.getFullYear();
-    Register(body, date);
+	var piano = false;
+	if (instrument == "piano")
+	{
+		piano = true;
+	}
+    Register(body, date, email, piano);
     document.getElementById('registration_parent_name_field').value = '';
     document.getElementById('registration_student_name_field').value = '';
     document.getElementById('registration_email_field').value = '';
