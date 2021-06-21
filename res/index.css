@@ -5,6 +5,57 @@
     margin-bottom: 1em;
 }
 
+#main_page_title
+{
+	font-weight: bolder;
+	font-size: 4rem;
+}
+
+#about_button
+{
+    margin-top: 1em;
+    display: block;
+    background: white;
+    padding: 1rem;
+    width: 8rem;
+    font-size: 0.3em;
+    color: skyblue;
+    transition: 0.5s;
+	border-radius: 3px;
+	border-color: skyblue;
+	border: solid 1px skyblue;
+	display: inline-block;
+	text-align: center;
+}
+
+#about_button:hover
+{
+	background-color: skyblue;
+	color: white;
+}
+
+#register_button
+{
+    margin-top: 1em;
+    display: block;
+    background: white;
+    padding: 1rem;
+    width: 5.5rem;
+    font-size: 0.3em;
+    color: skyblue;
+    transition: 0.5s;
+	border-radius: 3px;
+	border-color: skyblue;
+	border: solid 1px skyblue;
+	display: inline-block;
+}
+
+#register_button:hover
+{
+	background-color: skyblue;
+	color: white;
+}
+
 #secondary_title
 {
     font-weight: bolder;
@@ -76,26 +127,4 @@ label
 {
     float: left;
     height: 25em;
-}
-
-.primary_button
-{
-    margin-top: 1em;
-    display: block;
-    background: skyblue;
-    padding: 0.5em;
-    width: 6.5em;
-    font-size: 0.3em;
-    color: white;
-    transition: 0.5s;
-}
-
-.primary_button:hover
-{
-    background: lightblue;
-}
-
-.primary_button span
-{
-    font-weight: bold;
 }

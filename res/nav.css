@@ -34,8 +34,7 @@
 nav a
 {
     text-decoration: none;
-    text-transform: uppercase;
-    color: rgb(133, 133, 133);
+	text-transform: uppercase;
     transition: 0.3s;
 }
 
