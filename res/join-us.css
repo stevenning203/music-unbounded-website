@@ -15,8 +15,12 @@
 #registration_form_submit
 {
     border: none;
-    background-color: #E0E0E0;
+    background-color: black;
+	color: white;
     padding: 10px;
+	border-radius: 3px;
+	font-weight: bold;
+	cursor: pointer;
 }
 
 #application_form_insturment_drop_down
