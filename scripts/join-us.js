@@ -1,3 +1,16 @@
+function ModalOpen()
+{
+	var modal = document.getElementById("teacher_guidelines_modal");
+	modal.style.display = "block";
+	
+}
+
+function ModalClose()
+{
+	var modal = document.getElementById("teacher_guidelines_modal");
+	modal.style.display = "none";
+}
+
 function Redirect()
 {
 	window.location.href = "https://musicunbounded.org/thank-you";
@@ -17,6 +30,11 @@ function Register(body, date)
 
 function Apply()
 {
+	if (document.getElementById('application_checkbox').checked == false)
+	{
+		alert("You did not accept the Teacher Guidelines. Please read the teacher guidelines and check the box.");
+		return;
+	}
     teacher_name = document.getElementById('application_teacher_name_field').value;
 	age = document.getElementById('application_teacher_age_field').value;
     email = document.getElementById('application_email_field').value;

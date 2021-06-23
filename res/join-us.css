@@ -1,3 +1,60 @@
+#application_checkbox
+{
+	
+}
+
+#teacher_guidelines_anchor
+{
+	cursor: pointer;
+	color: blue;
+}
+
+#teacher_guidelines_modal
+{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 40%;
+	height: 60%;
+	margin-left: 30%;
+	margin-top: 5rem;
+	overflow: auto;
+	background-color: white;
+	padding: 3rem;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+#teacher_guidelines_modal li
+{
+	margin-bottom: 1rem;
+}
+
+#teacher_guidelines_modal_content
+{
+	background-color: white;
+	padding: 1rem;
+	border: 1px solid black;
+	width: 100%;
+}
+
+#teacher_guidelines_modal_close_button
+{
+	color: black;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#teacher_guidelines_modal_close_button:hover,
+#teacher_guidelines_modal_close_button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 #application_form
 {
     width: 60%;

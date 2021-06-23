@@ -115,6 +115,37 @@
                     Why would you like to join our team?* (Max 1000 characters)
                     <textarea maxlength = "1000" id = "application_why_field" class = "large_input_field" required></textarea>
                     <br><br>
+					* = required<br><br>
+					<input type = "checkbox" id = "application_checkbox">  I agree to abide by the <a id = "teacher_guidelines_anchor" onclick = "ModalOpen()">Teacher Guidelines</a>*
+					<div id = "teacher_guidelines_modal">
+						<span id = "teacher_guidelines_modal_close_button" onclick = "ModalClose()">&times;</span>
+						<strong>Teacher Guidelines</strong><br><br>
+						<hr>
+						<ul>
+							<li>
+								The safety of you and students is the priority. If you are doing in person lessons, and wearing a mask is possible, please do so. 
+							</li>
+							<li>
+								No swearing or cursing in the lessons.  Usage of offensive language of any kind, including discriminatory phrases, is prohibited.
+							</li>
+							<li>
+								The student’s musical interests take priority over the interests of the teacher regarding the songs being learned and the style of music that the student wishes to learn.
+							</li>
+							<li>
+								Recording or taking pictures of a student without the permission of their legal guardians is prohibited 
+							</li>
+							<li>
+								Teachers should approach lessons with a positive attitude as they are reflecting the integrity of the organization.
+							</li>
+							<li>
+								Disciplinary measures should be avoided.  This includes yelling and the use of punishments.  When possible, the parent should be contacted in the event that disciplinary action may be required.
+							</li>
+							<li>
+								If you suspect your student is being abused or mistreated by their guardians, you must report this to an executive member.
+							</li>
+						</ul>
+					</div>
+					<br><br>
                     <input type = "button" id = "registration_form_submit" value = "Submit" onclick = "Apply()"></input>
                     <span id = "registration_loading_text">PLEASE WAIT.....</span>
                 </form>
