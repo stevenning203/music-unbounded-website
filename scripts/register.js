@@ -87,7 +87,7 @@ function Register(body, date, receiver, piano)
         From: "noreplymusicunbounded@gmail.com",
         Subject: "Thank you for registering with us! On: " + date,
         Body: GetThankYou(piano),
-	}).then(message => Void());
+	}).then(message => Redirect());
 }
 
 
