@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="100mm"
+     inkscape:zoom="0.52410025"
+     inkscape:cx="684.98346"
+     inkscape:cy="317.68732"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="47.221381"
+       y="89.720624"
+       width="292.09797"
+       height="259.7176"
+       id="rect40363" />
+    <rect
+       x="89.046033"
+       y="188.88552"
+       width="58.014839"
+       height="94.442762"
+       id="rect17341" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#87ceeb;fill-opacity:1;stroke-width:0.208968"
+       id="rect11424"
+       width="101.3798"
+       height="101.02283"
+       x="1.0658141e-14"
+       y="1.2434498e-14" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.1694px;line-height:1.25;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:21.8517;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="23.560097"
+       y="50.332932"
+       id="text13929" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text17339"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect17341)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,4.2836538,2.8557692)"
+       id="text40361"
+       style="font-style:normal;font-weight:normal;font-size:166.667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect40363);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="47.220703"
+         y="241.77607"
+         id="tspan45432">MU</tspan></text>
+  </g>
+</svg>
