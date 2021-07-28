@@ -21,7 +21,7 @@ function Register(body, date)
     Email.send(
     {
         SecureToken: "37a95e7b-7fdd-4c23-8164-65168edc77f4",
-        To: "register@musicunbounded.org",
+        To: "register.musicunbounded@gmail.com",
         From: "noreplymusicunbounded@gmail.com",
         Subject: "Teacher Application On: " + date,
         Body: body,
@@ -41,6 +41,7 @@ function Apply()
     instrument = document.getElementById("application_form_insturment_drop_down").value;
     where = document.getElementById("application_form_where_drop_down").value;
     paragraph = document.getElementById('application_why_field').value;
+    phone_number = document.getElementById('application_phone_number_field').value;
     if (teacher_name == '' || email == '' || instrument == '' || where == '' || paragraph == '')
     {
         alert("Please fill out all the required fields");
@@ -49,6 +50,7 @@ function Apply()
     var body = "Teacher Name: " + teacher_name + '<br><br>';
 	body += "Age: " + age + '<br><br>';
     body += "Email: " + email + '<br><br>';
+    body += "Phone Number: " + phone_number + '<br><br>';
     body += "Instrument: " + instrument + '<br><br>';
     body += "Found out about us from: " + where + '<br><br>';
     body += "Statement about why they would like to join us: " + '<br><br>';

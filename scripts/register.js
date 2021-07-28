@@ -73,7 +73,7 @@ function Register(body, date, receiver, piano)
     Email.send(
     {
         SecureToken: "37a95e7b-7fdd-4c23-8164-65168edc77f4",
-        To: "register@musicunbounded.org",
+        To: "register.musicunbounded@gmail.com",
         From: "noreplymusicunbounded@gmail.com",
         Subject: "Automatic Registration On: " + date,
         Body: body,
